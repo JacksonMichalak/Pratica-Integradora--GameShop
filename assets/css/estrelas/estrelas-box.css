@@ -1,0 +1,15 @@
+.estrelas__box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+@media (max-width: 700px) {
+    
+    .estrelas__box {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

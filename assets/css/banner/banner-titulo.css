@@ -1,0 +1,25 @@
+.banner__titulo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 10%;
+    width: 80%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 60px;
+    text-align: center;
+    color: #F3F3F3;
+}
+
+.banner__titulo span {
+    color: #D01418;
+}
+
+@media (max-width: 800px) {
+
+    .banner {
+        top: 40%;
+    }
+}

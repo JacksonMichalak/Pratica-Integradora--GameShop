@@ -1,0 +1,44 @@
+.card__img {
+}
+
+.card__img::after {
+    content: "";
+    position: relative;
+    width: 100%;
+    height: 0px;
+    border: 0.2px solid #e5e5e5;
+    top: 100%;
+}
+
+.card__img--detroit {
+    background-image: url(../../img/game-detroit.png);
+    height: 70%;
+    width: 265px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img--fifa {
+    background-image: url(../../img/game-fifa.png);
+    height: 70%;
+    width: 265px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img--mortalkombat {
+    background-image: url(../../img/game-mortalkombat.png);
+    height: 70%;
+    width: 265px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

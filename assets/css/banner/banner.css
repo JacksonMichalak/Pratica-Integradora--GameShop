@@ -1,0 +1,16 @@
+.banner {
+    background-image: url(../../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+}
+
+@media (max-width: 800px) {
+
+    .banner {
+        top: 60px;
+    }
+}

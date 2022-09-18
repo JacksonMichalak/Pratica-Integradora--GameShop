@@ -1,0 +1,27 @@
+.redessociais_icones {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.icone__twitter {
+    left: 0%;
+    right: 0%;
+    top: 9.39%;
+    bottom: 9.39%;
+}
+
+.icone__facebook {
+    left: 7.15%;
+    right: 7.15%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.icone__instagram {
+    left: -0.02%;
+    right: -0.04%;
+    top: 6.22%;
+    bottom: 6.25%;
+
+}

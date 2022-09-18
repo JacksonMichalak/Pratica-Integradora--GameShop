@@ -1,0 +1,12 @@
+.rodape__redessocias {
+    flex: 1;
+    text-align: end;
+}
+
+.rodape__redessocias h4{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 25px;
+    color: #F3F3F3;
+    padding-bottom: 1rem;
+}
